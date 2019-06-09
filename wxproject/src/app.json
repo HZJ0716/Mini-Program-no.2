@@ -1,0 +1,30 @@
+{
+	"pages":[
+		"pages/index/main",
+		"pages/movice/main",
+		"pages/movieDetail/main",
+		"pages/list/main",
+		"pages/detail/main"
+	],
+	"window":{
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#B3EE3A",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/main",
+        "text": "影视音乐",
+        "iconPath": "/static/image/movice2.png",
+        "selectedIconPath": "/static/image/movice1.png"
+      },
+      {
+        "pagePath": "pages/movice/main",
+        "text": "影视列表",
+        "iconPath": "/static/image/book2.png",
+        "selectedIconPath": "/static/image/book1.png"
+      }
+    ]
+  }
+}
